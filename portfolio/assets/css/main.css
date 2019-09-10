@@ -2443,3 +2443,34 @@ input, select, textarea {
 					}
 
 	}
+
+/* My work*/
+
+.box.style2 img{
+height:360px;
+padding:100px;
+border-bottom: solid lightgrey;
+}
+
+@media screen and (max-width: 1280px) {
+
+	.box.style2 img{
+		height:300px;
+		padding:100px;
+		border-bottom: solid lightgrey;
+		}
+
+
+}	
+
+@media screen and (max-width: 980px) {
+
+	.box.style2 img{
+		height:380px;
+		width:400px;
+		padding:100px;
+		border-bottom:none;
+		padding-left:130px;
+		}
+
+}	
