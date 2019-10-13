@@ -2499,36 +2499,9 @@ border-bottom: solid lightgrey;
 	
 	}
 
-	@media screen and (max-width: 450px) {
-
-		artitcle	
-
-		a.image.featured{
-			width:20%!important;
-			margin:0!important;
-			padding:0%!important;
-			display:flex;
-			justify-content: center;
-		}
-	
-		img.bottomimg{
-			padding:90%!important;
-			margin:0!important;
-			}
-	
-		
-	}	
-
 @media screen and (max-width: 360px) {
 
-	a.image.featured{
-		margin:0!important;
-		padding:0%!important;
-	}
-
-	img.bottomimg{
-		height:200px!important;
-		width:200px!important;
+	img.logos2{
 		padding:0%!important;
 		margin:0!important;
 		}
