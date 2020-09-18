@@ -2462,7 +2462,9 @@ input, select, textarea {
 
 	}
 
-/* My work*/
+/*My work*/
+
+
 
 .box.style2 img{
 height:360px;
@@ -2494,9 +2496,9 @@ border-bottom: solid lightgrey;
 }	
 
 .logos{
+
 	height:95%;
-	
-	
+
 	}
 
 @media screen and (max-width: 360px) {
