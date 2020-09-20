@@ -4,6 +4,9 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+// Animation
+gsap.from(".profileImg", {duration:1, opacity:0, scale:0.3, ease:"bounce"});
+
 (function($) {
 
 	var	$window = $(window),
