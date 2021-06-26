@@ -2462,9 +2462,7 @@ input, select, textarea {
 
 	}
 
-/*My work*/
-
-
+/*My CSS*/
 
 .box.style2 img{
 height:360px;
@@ -2518,7 +2516,15 @@ border-bottom: solid lightgrey;
 
 .descriplist{
 	text-align: left;
-	margin: .25em 0 .25em 0;
-	
+	font-size: .80em;
+	}
+
+.intro{
+	padding:0%!important;
+	margin:1% 0%!important;
+	}	
+
+.parag{
+	font-size: 1.25em!important;
 	}
 
