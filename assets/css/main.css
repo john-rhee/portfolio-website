@@ -2464,8 +2464,6 @@ input, select, textarea {
 
 /*My work*/
 
-
-
 .box.style2 img{
 height:360px;
 padding:100px;
@@ -2474,6 +2472,7 @@ border-bottom: solid lightgrey;
 
 .box.style1{
 	padding: 20% 0 0 0;
+	height:400px;
 	}
 
 .box.style3{
@@ -2485,46 +2484,6 @@ img.logos{
 	max-height:60%;
 	}
 
-@media screen and (max-width: 1280px) {
-
-	
-
-	/* .box.style2 img{
-		height:300px;
-		padding:100px;
-		border-bottom: solid lightgrey;
-		} */
-
-
-}	
-
-@media screen and (max-width: 980px) {
-
-	.box.style2 img{
-		height:380px;
-		width:400px;
-		padding:100px;
-		border-bottom:none;
-		padding-left:130px;
-		}
-
-}	
-
-.logos{
-
-	height:95%;
-
-	}
-
-@media screen and (max-width: 360px) {
-
-	img.logos2{
-		padding:0%!important;
-		margin:0!important;
-		}
-	
-}	
-
 .projectlist{
 	display: flex;
 	flex-direction: column;
@@ -2534,7 +2493,7 @@ img.logos{
 .descriplist{
 	text-align: left;
 	margin: 0 5%;
-	font-size: .75em;
+	font-size: .85em;
 	
 	}
 
@@ -2549,6 +2508,37 @@ img.logos{
 
 .parag{
 	font-size: 1.25em!important;
-	}
+	}	
+
+@media screen and (max-width: 980px) {
+
+	.box.style2 img{
+		height:380px;
+		width:400px;
+		padding:100px;
+		border-bottom:none;
+		padding-left:130px;
+		}
+
+	.box.style1{
+		padding: 12% 0 0 0;
+		}	
+
+}	
+
+@media screen and (max-width: 360px) {
+
+	img.logos2{
+		padding:0%!important;
+		margin:0!important;
+		}
+
+	.box.style1{
+		padding: 12% 0 0 0;
+		}
+		
+}	
+
+
 
 	
