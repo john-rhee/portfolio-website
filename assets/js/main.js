@@ -5,7 +5,7 @@
 */
 
 // Animation
-gsap.from(".profileImg", {duration:2, opacity:0, scale:0.3, ease:"bounce"});
+gsap.from(".profileImg", {duration: 3, x: -500, rotation: -500, ease: "bounce"});
 
 (function($) {
 
